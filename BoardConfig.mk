@@ -123,3 +123,7 @@ TW_USE_TOOLBOX := true
 TW_INCLUDE_REPACKTOOLS := true
 TW_FORCE_KEYMASTER_VER := true
 TW_NO_FLASH_CURRENT_TWRP := true # For A/B devices that has dedicated recovery, removing that option in Advance.
+
+
+# Maintainer/Version
+TW_DEVICE_VERSION := Crypton-
