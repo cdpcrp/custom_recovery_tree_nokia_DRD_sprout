@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_DRD_sprout.mk
+    $(LOCAL_DIR)/twrp_DRD_sprout.mk
 
 COMMON_LUNCH_CHOICES := \
-    omni_DRD_sprout-user \
-    omni_DRD_sprout-userdebug \
-    omni_DRD_sprout-eng
+    twrp_DRD_sprout-user \
+    twrp_DRD_sprout-userdebug \
+    twrp_DRD_sprout-eng

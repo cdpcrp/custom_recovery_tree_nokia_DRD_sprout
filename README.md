@@ -1,4 +1,5 @@
-# Android device tree for Nokia Nokia 5.4 (DRD_sprout)
+# Custom Recovery Tree
+Build your own custom recovery for Nokia 5.4 (DRD_sprout).
 
 ```
 #

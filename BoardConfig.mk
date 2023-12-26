@@ -5,7 +5,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/hmd/DRD_sprout
+DEVICE_PATH := device/nokia/DRD_sprout
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
@@ -58,7 +58,7 @@ BOARD_KERNEL_IMAGE_NAME := Image
 BOARD_INCLUDE_DTB_IN_BOOTIMG := true
 BOARD_KERNEL_SEPARATED_DTBO := true
 TARGET_KERNEL_CONFIG := DRD_sprout_defconfig
-TARGET_KERNEL_SOURCE := kernel/hmd/DRD_sprout
+TARGET_KERNEL_SOURCE := kernel/nokia/DRD_sprout
 
 # Kernel - prebuilt
 TARGET_FORCE_PREBUILT_KERNEL := true
@@ -81,9 +81,9 @@ BOARD_USERDATAIMAGE_FILE_SYSTEM_TYPE := ext4
 BOARD_VENDORIMAGE_FILE_SYSTEM_TYPE := ext4
 TARGET_COPY_OUT_VENDOR := vendor
 BOARD_SUPER_PARTITION_SIZE := 9126805504 # TODO: Fix hardcoded value
-BOARD_SUPER_PARTITION_GROUPS := hmd_dynamic_partitions
-BOARD_HMD_DYNAMIC_PARTITIONS_PARTITION_LIST := system system_ext vendor product
-BOARD_HMD_DYNAMIC_PARTITIONS_SIZE := 9122611200 # TODO: Fix hardcoded value
+BOARD_SUPER_PARTITION_GROUPS := nokia_dynamic_partitions
+BOARD_NOKIA_DYNAMIC_PARTITIONS_PARTITION_LIST := system system_ext vendor product
+BOARD_NOKIA_DYNAMIC_PARTITIONS_SIZE := 9122611200 # TODO: Fix hardcoded value
 
 # Platform
 TARGET_BOARD_PLATFORM := bengal
