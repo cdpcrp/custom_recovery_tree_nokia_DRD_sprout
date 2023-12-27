@@ -42,8 +42,8 @@
 /usb_otg     auto        /dev/block/sda1 /dev/block/sda            flags=display="USB Storage";storage;wipeingui;removable
 
 # Other Partitions
-/bt_firmware          vfat      /dev/block/bootdevice/by-name/bluetooth        flags=slotselect;backup=1
+/bluetooth          vfat      /dev/block/bootdevice/by-name/bluetooth        flags=slotselect;backup=1
 /dsp                ext4      /dev/block/bootdevice/by-name/dsp              flags=slotselect;backup=1
-/firmware_mnt              emmc      /dev/block/bootdevice/by-name/modem            flags=display="Modem";slotselect;backup=1;flashimg=1
+/modem              emmc      /dev/block/bootdevice/by-name/modem            flags=display="Modem";slotselect;backup=1;flashimg=1
 /persist            ext4      /dev/block/bootdevice/by-name/persist          flags=display="Persist";backup=1;flashimg=1
-/elabel            ext4      /dev/block/bootdevice/by-name/elable_a         flags=display="ELable";backup=1;flashimg=1
+/elableinfo            ext4      /dev/block/bootdevice/by-name/elableinfo         flags=display="Elableinfo";backup=1;flashimg=1
